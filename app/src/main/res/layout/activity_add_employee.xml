@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMPLOYEE DETAILS"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Employee Code EditText (Not used) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Code"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Name EditText (Not used) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Designation EditText (Not used) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Designation"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Email EditText (Not used) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Salary EditText (Not used) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salary"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="SUBMIT"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Go to Menu Button -->
+        <Button
+            android:id="@+id/btnGoToMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="GO TO MENU"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
